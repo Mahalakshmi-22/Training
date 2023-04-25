@@ -1,6 +1,6 @@
 a=["maha","viji","muthu","vino","maha"]
 arr=[]
-a.map(e=>{
+a.filter(e=>{
     if(!arr.includes(e)){
         arr.push(e)
     }

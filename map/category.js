@@ -4,6 +4,8 @@ let arr=[
 {id:3,name:"vino",category:"it"}]
 let obj={}
 arr.map(e=>{
+
+    // obj[e.category]=[{id:e.id,name:e.name}]
     if(e.category in obj){
         obj[e.category].push(e)
     }else{
